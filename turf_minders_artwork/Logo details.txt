@@ -1,0 +1,11 @@
+Color Code : Dark Green #06402A
+Light Green #8DC63F
+Font name: Montserrat Bold & sami-bold
+
+Color will be Change and all Vector
+PDF → Client presentation + print
+SVG → Website / digital use
+AI / EPS → Editable master file (vector)
+PSD → Editable layered file (raster, Photoshop)
+PNG → Transparent preview
+JPG → Final image (no transparency)
