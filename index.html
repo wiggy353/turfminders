@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ============================================================
+    PAGE TITLE & META — update these for SEO
+  ============================================================ -->
+  <title>Turf Minders | Artificial Turf Cleaning &amp; Maintenance — Tucson, AZ</title>
+  <meta name="description" content="Turf Minders provides professional artificial turf cleaning, deodorizing, sanitizing, and maintenance services in Tucson and surrounding areas. Get a free quote today." />
+  <meta name="keywords" content="artificial turf cleaning Tucson, synthetic grass maintenance, turf deodorizing, pet turf cleaning, Tucson turf service" />
+
+  <!-- Open Graph (for social sharing) -->
+  <meta property="og:title" content="Turf Minders | Cleaner Turf. Better Play." />
+  <meta property="og:description" content="Professional artificial turf cleaning and maintenance in Tucson, AZ." />
+  <meta property="og:type" content="website" />
+  <!-- TODO: Replace with actual deployed URL -->
+  <meta property="og:url" content="https://turfminders.com" />
+  <!-- TODO: Add og:image with a real photo (1200x630px recommended) -->
+  <!-- <meta property="og:image" content="https://turfminders.com/assets/images/og-image.jpg" /> -->
+
+  <!-- Google Fonts — Montserrat (brand font) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg" />
+  <link rel="icon" type="image/jpeg" href="assets/images/favicon-icon.jpg" />
+</head>
+<body>
+
+  <!-- ============================================================
+    NAVIGATION
+  ============================================================ -->
+  <header class="site-header" id="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+
+      <!-- LOGO -->
+      <a href="#hero" class="nav-logo" aria-label="Turf Minders home">
+        <img src="assets/images/logo-color.png" alt="Turf Minders" class="nav-logo__img" />
+      </a>
+
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#why" class="nav-link">Why Clean?</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#pricing" class="nav-link">Packages</a></li>
+        <li><a href="#contact" class="nav-link nav-link--cta">Get a Quote</a></li>
+      </ul>
+
+      <!-- Hamburger (mobile) -->
+      <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+        <span class="nav-hamburger__bar"></span>
+        <span class="nav-hamburger__bar"></span>
+        <span class="nav-hamburger__bar"></span>
+      </button>
+
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ============================================================
+      HERO SECTION
+      - Replace the background-image in CSS (.hero) with a real photo
+      - Update headline and subtext as needed
+    ============================================================ -->
+    <section class="hero" id="hero" aria-label="Hero">
+      <div class="hero__overlay"></div>
+      <div class="hero__content container">
+        <!-- TODO: Main headline — keep punchy, keyword-friendly -->
+        <h1 class="hero__headline">
+          Cleaner Turf.<br />Better Play.
+        </h1>
+        <!-- TODO: Subheadline — 1–2 sentences describing the service -->
+        <p class="hero__sub">
+          Tucson's professional artificial turf cleaning and maintenance service.
+          We remove odors, bacteria, debris, and compaction so your turf looks
+          and smells like new.
+        </p>
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--primary btn--lg">Get a Free Quote</a>
+          <a href="#services" class="btn btn--outline btn--lg">See Our Services</a>
+        </div>
+        <!-- Trust badges -->
+        <div class="hero__badges">
+          <span class="badge">&#10003; Locally Owned</span>
+          <span class="badge">&#10003; Pet &amp; Kid Safe</span>
+          <span class="badge">&#10003; Tucson &amp; Surrounding Areas</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+      SERVICES SECTION
+      - Each card represents one service tier
+      - Add or remove cards as your offerings evolve
+    ============================================================ -->
+    <section class="section services" id="services" aria-labelledby="services-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">What We Do</span>
+          <h2 class="section-title" id="services-heading">Our Services</h2>
+          <p class="section-desc">
+            Every visit is tailored to your turf's needs. Whether it's a quick
+            refresh or a full deep clean, we restore your artificial grass to
+            peak condition.
+          </p>
+        </div>
+
+        <div class="services-grid">
+
+          <!-- SERVICE 1: CLEAN -->
+          <article class="service-card" aria-label="Clean service">
+            <div class="service-card__icon" aria-hidden="true">
+              <!-- Leaf / clean icon (SVG inline for no-dependency rendering) -->
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>
+            </div>
+            <h3 class="service-card__title">Clean</h3>
+            <p class="service-card__desc">
+              Our foundational service. We clear surface debris, leaves, and dirt,
+              power-brush the blades back upright, and clean the edges and borders.
+              Ideal for regular upkeep to keep your turf looking great.
+            </p>
+            <ul class="service-card__list" role="list">
+              <li>Surface debris &amp; leaf removal</li>
+              <li>Power brushing &amp; blade grooming</li>
+              <li>Edge &amp; border cleanup</li>
+              <li>Rinse &amp; inspection</li>
+            </ul>
+          </article>
+
+          <!-- SERVICE 2: REFRESH -->
+          <article class="service-card service-card--featured" aria-label="Refresh service">
+            <div class="service-card__badge">Most Popular</div>
+            <div class="service-card__icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+            </div>
+            <h3 class="service-card__title">Refresh</h3>
+            <p class="service-card__desc">
+              Everything in Clean, plus a professional-grade deodorizing treatment
+              to neutralize pet and organic odors. Great for households with
+              pets or high-traffic areas. Ideal for quarterly maintenance.
+            </p>
+            <ul class="service-card__list" role="list">
+              <li>Everything in Clean</li>
+              <li>Professional deodorizing treatment</li>
+            </ul>
+          </article>
+
+          <!-- SERVICE 3: RESET -->
+          <article class="service-card" aria-label="Reset service">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <h3 class="service-card__title">Reset</h3>
+            <p class="service-card__desc">
+              Our most comprehensive service. Everything in Refresh, plus a
+              hospital-grade sanitizing treatment that kills bacteria and pathogens.
+              Recommended for neglected turf or pet-heavy areas.
+            </p>
+            <ul class="service-card__list" role="list">
+              <li>Everything in Refresh</li>
+              <li>Hospital-grade sanitizing treatment</li>
+            </ul>
+          </article>
+
+          <!-- SERVICE 4: INFILL REFRESH (Add-On) -->
+          <article class="service-card service-card--addon" aria-label="Infill Refresh add-on">
+            <div class="service-card__badge service-card__badge--addon">Add-On</div>
+            <div class="service-card__icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </div>
+            <h3 class="service-card__title">Infill Refresh</h3>
+            <p class="service-card__desc">
+              Add new infill material (silica sand, crumb rubber, or
+              antimicrobial infill) to areas that have thinned over time.
+              Restores proper drainage, cushioning, and blade support.
+            </p>
+            <ul class="service-card__list" role="list">
+              <li>New infill material applied</li>
+              <li>Improves drainage performance</li>
+              <li>Restores cushioning &amp; support</li>
+              <li>Available with any service tier</li>
+            </ul>
+          </article>
+
+        </div><!-- /.services-grid -->
+
+        <div class="section-cta-wrap">
+          <a href="#contact" class="btn btn--primary">Request a Service Quote</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+      WHY TURF CLEANING MATTERS SECTION
+      - Educational content — builds trust and answers objections
+      - Update stats/facts as needed
+    ============================================================ -->
+    <section class="section why" id="why" aria-labelledby="why-heading">
+      <div class="container">
+        <div class="section-header section-header--light">
+          <span class="section-eyebrow section-eyebrow--light">The Facts</span>
+          <h2 class="section-title" id="why-heading">Why Turf Cleaning Matters</h2>
+          <p class="section-desc">
+            Artificial turf isn't maintenance-free. Without regular cleaning,
+            it harbors bacteria, odors, compacted infill, and UV-damaged blades —
+            shortening the life of your investment.
+          </p>
+        </div>
+
+        <div class="why-grid">
+          <div class="why-card">
+            <div class="why-card__icon" aria-hidden="true">&#129428;</div>
+            <h3 class="why-card__title">Bacteria &amp; Odor Build-Up</h3>
+            <p class="why-card__desc">
+              Pet waste, organic debris, and moisture create breeding grounds
+              for bacteria and persistent odors. Regular sanitizing kills
+              pathogens and keeps your space smelling fresh.
+            </p>
+          </div>
+          <div class="why-card">
+            <div class="why-card__icon" aria-hidden="true">&#9728;&#65039;</div>
+            <h3 class="why-card__title">Tucson's Desert Climate</h3>
+            <p class="why-card__desc">
+              Dust storms, pollen, and extreme heat accelerate turf degradation.
+              Debris compacts infill and traps heat. Cleaning restores airflow
+              and helps turf drain and cool properly.
+            </p>
+          </div>
+          <div class="why-card">
+            <div class="why-card__icon" aria-hidden="true">&#128100;</div>
+            <h3 class="why-card__title">Safe for Kids &amp; Pets</h3>
+            <p class="why-card__desc">
+              Children and pets spend time low to the ground. Clean, sanitized
+              turf reduces exposure to allergens, bacteria, and residue — giving
+              you peace of mind for the whole family.
+            </p>
+          </div>
+          <div class="why-card">
+            <div class="why-card__icon" aria-hidden="true">&#128176;</div>
+            <h3 class="why-card__title">Protect Your Investment</h3>
+            <p class="why-card__desc">
+              Quality artificial turf costs thousands to install. Regular
+              professional maintenance can extend its lifespan by years,
+              delaying costly replacement.
+            </p>
+          </div>
+          <div class="why-card">
+            <div class="why-card__icon" aria-hidden="true">&#127944;</div>
+            <h3 class="why-card__title">Better Performance</h3>
+            <p class="why-card__desc">
+              Matted, compacted turf affects play quality. Brushing restores
+              blade height and consistent bounce, keeping sports surfaces
+              performing at their best.
+            </p>
+          </div>
+          <div class="why-card">
+            <div class="why-card__icon" aria-hidden="true">&#127807;</div>
+            <h3 class="why-card__title">Always Looks Its Best</h3>
+            <p class="why-card__desc">
+              First impressions matter. Clean, vibrant turf enhances curb
+              appeal and outdoor living spaces — whether it's a front yard,
+              patio, dog run, or putting green.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+      GALLERY / BEFORE & AFTER SECTION
+      - Replace placeholder divs with <img> tags once you have photos
+      - Recommended: use before/after slider JS library later if desired
+      - Image size recommendation: 800x600px minimum, WebP format preferred
+    ============================================================ -->
+    <section class="section gallery" id="gallery" aria-labelledby="gallery-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Results</span>
+          <h2 class="section-title" id="gallery-heading">Before &amp; After</h2>
+          <p class="section-desc">
+            Real results from real Tucson properties. See the difference
+            professional turf cleaning makes.
+          </p>
+        </div>
+
+        <div class="gallery-grid">
+
+          <!-- BEFORE/AFTER PAIR 1 -->
+          <div class="gallery-pair">
+            <div class="gallery-pair__item">
+              <img src="assets/images/before-1.jpg" alt="Artificial turf before Turf Minders cleaning — matted and dirty" loading="lazy" class="gallery-img" />
+              <p class="gallery-pair__caption">Before: Matted, discolored turf with embedded debris</p>
+            </div>
+            <div class="gallery-pair__item">
+              <img src="assets/images/after-1.jpg" alt="Artificial turf after Turf Minders cleaning — clean and groomed" loading="lazy" class="gallery-img" />
+              <p class="gallery-pair__caption">After: Clean, groomed, vibrant turf</p>
+            </div>
+          </div>
+
+          <!-- BEFORE/AFTER PAIR 2 -->
+          <div class="gallery-pair">
+            <div class="gallery-pair__item">
+              <div class="photo-placeholder photo-placeholder--before">
+                <span class="photo-placeholder__label">Before</span>
+                <span class="photo-placeholder__hint">Replace with before photo<br/>Recommended: 800×600px</span>
+              </div>
+              <p class="gallery-pair__caption">Before: Pet odor and staining in dog run area</p>
+            </div>
+            <div class="gallery-pair__item">
+              <div class="photo-placeholder photo-placeholder--after">
+                <span class="photo-placeholder__label">After</span>
+                <span class="photo-placeholder__hint">Replace with after photo<br/>Recommended: 800×600px</span>
+              </div>
+              <p class="gallery-pair__caption">After: Fully sanitized and deodorized surface</p>
+            </div>
+          </div>
+
+          <!-- BEFORE/AFTER PAIR 3 -->
+          <div class="gallery-pair">
+            <div class="gallery-pair__item">
+              <div class="photo-placeholder photo-placeholder--before">
+                <span class="photo-placeholder__label">Before</span>
+                <span class="photo-placeholder__hint">Replace with before photo<br/>Recommended: 800×600px</span>
+              </div>
+              <p class="gallery-pair__caption">Before: Compacted infill, flattened blades</p>
+            </div>
+            <div class="gallery-pair__item">
+              <div class="photo-placeholder photo-placeholder--after">
+                <span class="photo-placeholder__label">After</span>
+                <span class="photo-placeholder__hint">Replace with after photo<br/>Recommended: 800×600px</span>
+              </div>
+              <p class="gallery-pair__caption">After: Restored pile height and uniform appearance</p>
+            </div>
+          </div>
+
+        </div><!-- /.gallery-grid -->
+      </div>
+    </section>
+
+    <!-- ============================================================
+      PRICING / PACKAGES SECTION
+      - No exact prices are listed — contact CTA drives leads
+      - Add prices once finalized: replace "Contact for Pricing" text
+      - The "featured" card is highlighted as recommended
+    ============================================================ -->
+    <section class="section pricing" id="pricing" aria-labelledby="pricing-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Transparent Value</span>
+          <h2 class="section-title" id="pricing-heading">Service Packages</h2>
+          <p class="section-desc">
+            Pricing depends on turf size and condition. Contact us for a
+            fast, no-obligation quote — most responses within 24 hours.
+          </p>
+        </div>
+
+        <div class="pricing-grid">
+
+          <!-- PACKAGE 1: CLEAN -->
+          <div class="pricing-card">
+            <div class="pricing-card__header">
+              <h3 class="pricing-card__name">Clean</h3>
+              <!-- TODO: Replace with actual price, e.g. "Starting at $X" -->
+              <div class="pricing-card__price">Starting at $149</div>
+              <p class="pricing-card__freq">Per visit &bull; One-time or recurring</p>
+            </div>
+            <ul class="pricing-card__features" role="list">
+              <li>&#10003; Surface debris &amp; leaf removal</li>
+              <li>&#10003; Power brushing &amp; blade grooming</li>
+              <li>&#10003; Edge &amp; border cleanup</li>
+              <li>&#10003; Rinse down &amp; inspection</li>
+            </ul>
+            <a href="#contact" class="btn btn--outline-dark btn--full">Get a Quote</a>
+          </div>
+
+          <!-- PACKAGE 2: REFRESH (featured) -->
+          <div class="pricing-card pricing-card--featured">
+            <div class="pricing-card__ribbon">Recommended</div>
+            <div class="pricing-card__header">
+              <h3 class="pricing-card__name">Refresh</h3>
+              <!-- TODO: Replace with actual price -->
+              <div class="pricing-card__price">Starting at $189</div>
+              <p class="pricing-card__freq">Per visit &bull; Great for quarterly maintenance</p>
+            </div>
+            <ul class="pricing-card__features" role="list">
+              <li>&#10003; Everything in Clean</li>
+              <li>&#10003; Professional deodorizing treatment</li>
+            </ul>
+            <a href="#contact" class="btn btn--primary btn--full">Get a Quote</a>
+          </div>
+
+          <!-- PACKAGE 3: RESET -->
+          <div class="pricing-card">
+            <div class="pricing-card__header">
+              <h3 class="pricing-card__name">Reset</h3>
+              <!-- TODO: Replace with actual price -->
+              <div class="pricing-card__price">Starting at $224</div>
+              <p class="pricing-card__freq">Per visit &bull; Deep clean &amp; restore</p>
+            </div>
+            <ul class="pricing-card__features" role="list">
+              <li>&#10003; Everything in Refresh</li>
+              <li>&#10003; Hospital-grade sanitizing treatment</li>
+            </ul>
+            <a href="#contact" class="btn btn--outline-dark btn--full">Get a Quote</a>
+          </div>
+
+        </div><!-- /.pricing-grid -->
+
+        <!-- Infill Refresh add-on callout -->
+        <div class="addon-callout">
+          <div class="addon-callout__icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+          </div>
+          <div class="addon-callout__content">
+            <strong>Infill Refresh Add-On</strong> — available with any service tier.
+            Ask us about replenishing infill material to restore drainage,
+            cushioning, and blade support.
+          </div>
+          <a href="#contact" class="btn btn--accent btn--sm">Ask About Add-On</a>
+        </div>
+
+        <!-- Recurring service note -->
+        <p class="pricing-note">
+          &#9432; Recurring service plans (monthly, bi-monthly, quarterly) are
+          available and may qualify for discounted rates. Ask us about a
+          maintenance plan when you request your quote.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+      CONTACT / QUOTE REQUEST FORM
+      - Form currently uses a mailto fallback (no backend)
+      - TODO: Replace form action with a real form handler:
+          Options: Netlify Forms, Formspree, EmailJS, or a backend endpoint
+          See js/main.js for the current client-side handler
+      - Update the email address in js/main.js too
+    ============================================================ -->
+    <section class="section contact" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="contact-layout">
+
+          <!-- Contact info column -->
+          <div class="contact-info">
+            <span class="section-eyebrow section-eyebrow--light">Get in Touch</span>
+            <h2 class="section-title contact-info__title" id="contact-heading">
+              Request a Free Quote
+            </h2>
+            <p class="contact-info__desc">
+              Tell us about your turf and we'll get back to you within
+              24 hours with a custom quote. No pressure, no obligation.
+            </p>
+
+            <ul class="contact-details" role="list">
+              <!-- TODO: Replace with real phone number -->
+              <li class="contact-details__item">
+                <svg class="contact-details__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 5.56 5.59l1.73-1.73a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <div>
+                  <strong>Phone</strong>
+                  <!-- TODO: Replace phone number -->
+                  <a href="tel:+15207047954">(520) 704-7954</a>
+                </div>
+              </li>
+              <!-- TODO: Replace with real email address -->
+              <li class="contact-details__item">
+                <svg class="contact-details__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                <div>
+                  <strong>Email</strong>
+                  <!-- TODO: Replace email address -->
+                  <a href="mailto:info@turfminders.com">info@turfminders.com</a>
+                </div>
+              </li>
+              <li class="contact-details__item">
+                <svg class="contact-details__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <div>
+                  <strong>Service Area</strong>
+                  <span>Tucson, Marana, Oro Valley, Sahuarita &amp; surrounding areas</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Quote request form -->
+          <div class="contact-form-wrap">
+            <form class="contact-form" id="contact-form" novalidate>
+              <!-- Hidden field for spam protection (honeypot) -->
+              <div class="form-honeypot" aria-hidden="true">
+                <label for="website">Website (leave blank)</label>
+                <input type="text" id="website" name="website" tabindex="-1" autocomplete="off" />
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="name">Full Name <span class="required" aria-label="required">*</span></label>
+                  <input class="form-input" type="text" id="name" name="name" placeholder="Jane Smith" required autocomplete="name" />
+                  <span class="form-error" id="name-error" role="alert"></span>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="phone">Phone Number <span class="required" aria-label="required">*</span></label>
+                  <input class="form-input" type="tel" id="phone" name="phone" placeholder="(520) 704-7954" required autocomplete="tel" />
+                  <span class="form-error" id="phone-error" role="alert"></span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="email">Email Address <span class="required" aria-label="required">*</span></label>
+                <input class="form-input" type="email" id="email" name="email" placeholder="jane@example.com" required autocomplete="email" />
+                <span class="form-error" id="email-error" role="alert"></span>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="address">Property Address</label>
+                <input class="form-input" type="text" id="address" name="address" placeholder="123 Main St, Tucson, AZ 85701" autocomplete="street-address" />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="service">Service Interest</label>
+                <select class="form-input form-select" id="service" name="service">
+                  <option value="" disabled selected>Select a service…</option>
+                  <option value="clean">Clean</option>
+                  <option value="refresh">Refresh</option>
+                  <option value="reset">Reset</option>
+                  <option value="infill-addon">Infill Refresh Add-On</option>
+                  <option value="recurring">Recurring Maintenance Plan</option>
+                  <option value="not-sure">Not Sure — I Need Advice</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="message">Additional Details</label>
+                <textarea class="form-input form-textarea" id="message" name="message" placeholder="Tell us about your turf: approximate square footage, type of use (pets, kids, sports), any specific concerns…" rows="4"></textarea>
+              </div>
+
+              <button class="btn btn--primary btn--full btn--lg" type="submit" id="submit-btn">
+                <span class="btn-text">Send My Quote Request</span>
+                <span class="btn-spinner" aria-hidden="true"></span>
+              </button>
+
+              <!-- Success / error messages -->
+              <div class="form-status form-status--success" id="form-success" role="status" aria-live="polite" hidden>
+                &#10003; Thanks! We received your request and will be in touch within 24 hours.
+              </div>
+              <div class="form-status form-status--error" id="form-error-msg" role="alert" aria-live="assertive" hidden>
+                Something went wrong. Please try again or email us directly at
+                <!-- TODO: Replace email -->
+                <a href="mailto:info@turfminders.com">info@turfminders.com</a>.
+              </div>
+
+            </form>
+          </div>
+
+        </div><!-- /.contact-layout -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+    FOOTER
+    - Update phone, email, and social links
+    - Add social media URLs once accounts are set up
+  ============================================================ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+
+        <!-- Brand column -->
+        <div class="footer-brand">
+          <a href="#hero" class="footer-logo" aria-label="Turf Minders home">
+            <img src="assets/images/logo-white.svg" alt="Turf Minders — Cleaner Turf. Better Play." class="footer-logo__img" />
+          </a>
+          <p class="footer-brand__desc">
+            Tucson's professional artificial turf cleaning and maintenance
+            service. Locally owned and operated.
+          </p>
+        </div>
+
+        <!-- Services column -->
+        <div class="footer-col">
+          <h4 class="footer-col__heading">Services</h4>
+          <ul role="list">
+            <li><a href="#services">Clean</a></li>
+            <li><a href="#services">Refresh</a></li>
+            <li><a href="#services">Reset</a></li>
+            <li><a href="#services">Infill Refresh Add-On</a></li>
+          </ul>
+        </div>
+
+        <!-- Company column -->
+        <div class="footer-col">
+          <h4 class="footer-col__heading">Company</h4>
+          <ul role="list">
+            <li><a href="#why">Why Clean?</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#pricing">Packages</a></li>
+            <li><a href="#contact">Get a Quote</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact column -->
+        <div class="footer-col">
+          <h4 class="footer-col__heading">Contact</h4>
+          <ul role="list">
+            <!-- TODO: Replace with real phone and email -->
+            <li><a href="tel:+15207047954">(520) 704-7954</a></li>
+            <li><a href="mailto:info@turfminders.com">info@turfminders.com</a></li>
+            <li>Tucson, AZ &amp; Surrounding Areas</li>
+          </ul>
+          <!-- TODO: Add social links once accounts exist -->
+          <div class="footer-social">
+            <!-- Example:
+            <a href="https://facebook.com/turfminders" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+              [FB icon]
+            </a>
+            <a href="https://instagram.com/turfminders" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+              [IG icon]
+            </a>
+            -->
+          </div>
+        </div>
+
+      </div><!-- /.footer-grid -->
+
+      <div class="footer-bottom">
+        <p>
+          &copy; <span id="footer-year"></span> Turf Minders. All rights reserved.
+          <!-- TODO: Add privacy policy and terms pages once created -->
+          <!-- &bull; <a href="/privacy">Privacy Policy</a> -->
+        </p>
+        <p class="footer-bottom__credit">Serving Tucson, Marana, Oro Valley, Sahuarita &amp; surrounding areas</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top" hidden>&#8679;</button>
+
+  <!-- Main JavaScript -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
