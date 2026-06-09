@@ -31,6 +31,36 @@
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg" />
   <link rel="icon" type="image/jpeg" href="assets/images/favicon-icon.jpg" />
+
+  <!-- Canonical URL — update after deployment -->
+  <link rel="canonical" href="https://turfminders.com" />
+
+  <!-- LocalBusiness structured data — helps Google show your business in local search results -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Turf Minders",
+    "description": "Professional artificial turf cleaning, deodorizing, sanitizing, and maintenance in Tucson, AZ.",
+    "url": "https://turfminders.com",
+    "telephone": "+15207047954",
+    "email": "info@turfminders.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Tucson",
+      "addressRegion": "AZ",
+      "addressCountry": "US"
+    },
+    "areaServed": [
+      { "@type": "City", "name": "Tucson" },
+      { "@type": "City", "name": "Marana" },
+      { "@type": "City", "name": "Oro Valley" },
+      { "@type": "City", "name": "Sahuarita" }
+    ],
+    "priceRange": "$$",
+    "serviceType": "Artificial Turf Cleaning and Maintenance"
+  }
+  </script>
 </head>
 <body>
 
@@ -52,6 +82,9 @@
         <li><a href="#pricing" class="nav-link">Packages</a></li>
         <li><a href="#contact" class="nav-link nav-link--cta">Get a Quote</a></li>
       </ul>
+
+      <!-- Phone number — desktop only, hidden on mobile via CSS -->
+      <a href="tel:+15207047954" class="nav-phone" aria-label="Call Turf Minders">(520) 704-7954</a>
 
       <!-- Hamburger (mobile) -->
       <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
@@ -79,9 +112,7 @@
         </h1>
         <!-- TODO: Subheadline — 1–2 sentences describing the service -->
         <p class="hero__sub">
-          Tucson's professional artificial turf cleaning and maintenance service.
-          We remove odors, bacteria, debris, and compaction so your turf looks
-          and smells like new.
+          Tucson's trusted artificial turf cleaning service — built for homes with pets, kids, and high-traffic yards. We remove odors, bacteria, and debris so your turf looks, smells, and plays like new.
         </p>
         <div class="hero__actions">
           <a href="#contact" class="btn btn--primary btn--lg">Get a Free Quote</a>
@@ -107,9 +138,7 @@
           <span class="section-eyebrow">What We Do</span>
           <h2 class="section-title" id="services-heading">Our Services</h2>
           <p class="section-desc">
-            Every visit is tailored to your turf's needs. Whether it's a quick
-            refresh or a full deep clean, we restore your artificial grass to
-            peak condition.
+            Three service levels built around your turf's condition and your household's needs — every visit includes power brushing, edge cleanup, and a full inspection.
           </p>
         </div>
 
@@ -199,6 +228,24 @@
     </section>
 
     <!-- ============================================================
+      MID-PAGE CTA STRIP
+    ============================================================ -->
+    <section class="cta-strip" aria-label="Get a free quote">
+      <div class="container">
+        <div class="cta-strip__inner">
+          <div class="cta-strip__text">
+            <h2 class="cta-strip__heading">Ready for Cleaner Turf?</h2>
+            <p class="cta-strip__sub">Fast quotes. Local service. No obligation.</p>
+          </div>
+          <div class="cta-strip__actions">
+            <a href="#contact" class="btn btn--accent btn--lg">Get a Free Quote</a>
+            <a href="tel:+15207047954" class="btn btn--outline btn--lg">(520) 704-7954</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
       WHY TURF CLEANING MATTERS SECTION
       - Educational content — builds trust and answers objections
       - Update stats/facts as needed
@@ -276,6 +323,51 @@
     </section>
 
     <!-- ============================================================
+      TESTIMONIALS SECTION
+      - Replace placeholder quotes with real customer reviews
+      - Best sources: Google Reviews, Yelp, or a direct ask after service
+      - Even 1–2 short quotes dramatically increase trust and conversions
+    ============================================================ -->
+    <section class="section testimonials" id="testimonials" aria-labelledby="testimonials-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Happy Customers</span>
+          <h2 class="section-title" id="testimonials-heading">What Tucson Homeowners Are Saying</h2>
+        </div>
+        <div class="testimonials-grid">
+
+          <!-- TODO: Replace with a real customer quote (Google/Yelp review or direct feedback) -->
+          <blockquote class="testimonial-card">
+            <p class="testimonial-card__quote">"Replace this with a real customer quote. After your first few jobs, ask happy customers for a Google review — then paste their words right here."</p>
+            <footer class="testimonial-card__author">
+              <strong>Customer Name</strong>
+              <span>Tucson, AZ &bull; Refresh Service</span>
+            </footer>
+          </blockquote>
+
+          <!-- TODO: Replace with a real customer quote -->
+          <blockquote class="testimonial-card">
+            <p class="testimonial-card__quote">"Replace this with a real customer quote. Pet owners and families with kids make especially compelling testimonials for this type of service."</p>
+            <footer class="testimonial-card__author">
+              <strong>Customer Name</strong>
+              <span>Oro Valley, AZ &bull; Reset Service</span>
+            </footer>
+          </blockquote>
+
+          <!-- TODO: Replace with a real customer quote -->
+          <blockquote class="testimonial-card">
+            <p class="testimonial-card__quote">"Replace this with a real customer quote. Even 1–2 sentences from a happy customer builds significant trust with new visitors."</p>
+            <footer class="testimonial-card__author">
+              <strong>Customer Name</strong>
+              <span>Marana, AZ &bull; Clean Service</span>
+            </footer>
+          </blockquote>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
       GALLERY / BEFORE & AFTER SECTION
       - Replace placeholder divs with <img> tags once you have photos
       - Recommended: use before/after slider JS library later if desired
@@ -285,10 +377,9 @@
       <div class="container">
         <div class="section-header">
           <span class="section-eyebrow">Results</span>
-          <h2 class="section-title" id="gallery-heading">Before &amp; After</h2>
+          <h2 class="section-title" id="gallery-heading">The Turf Minders Difference</h2>
           <p class="section-desc">
-            Real results from real Tucson properties. See the difference
-            professional turf cleaning makes.
+            Real results from real Tucson properties. See what a professional cleaning does for your artificial turf.
           </p>
         </div>
 
@@ -306,41 +397,7 @@
             </div>
           </div>
 
-          <!-- BEFORE/AFTER PAIR 2 -->
-          <div class="gallery-pair">
-            <div class="gallery-pair__item">
-              <div class="photo-placeholder photo-placeholder--before">
-                <span class="photo-placeholder__label">Before</span>
-                <span class="photo-placeholder__hint">Replace with before photo<br/>Recommended: 800×600px</span>
-              </div>
-              <p class="gallery-pair__caption">Before: Pet odor and staining in dog run area</p>
-            </div>
-            <div class="gallery-pair__item">
-              <div class="photo-placeholder photo-placeholder--after">
-                <span class="photo-placeholder__label">After</span>
-                <span class="photo-placeholder__hint">Replace with after photo<br/>Recommended: 800×600px</span>
-              </div>
-              <p class="gallery-pair__caption">After: Fully sanitized and deodorized surface</p>
-            </div>
-          </div>
-
-          <!-- BEFORE/AFTER PAIR 3 -->
-          <div class="gallery-pair">
-            <div class="gallery-pair__item">
-              <div class="photo-placeholder photo-placeholder--before">
-                <span class="photo-placeholder__label">Before</span>
-                <span class="photo-placeholder__hint">Replace with before photo<br/>Recommended: 800×600px</span>
-              </div>
-              <p class="gallery-pair__caption">Before: Compacted infill, flattened blades</p>
-            </div>
-            <div class="gallery-pair__item">
-              <div class="photo-placeholder photo-placeholder--after">
-                <span class="photo-placeholder__label">After</span>
-                <span class="photo-placeholder__hint">Replace with after photo<br/>Recommended: 800×600px</span>
-              </div>
-              <p class="gallery-pair__caption">After: Restored pile height and uniform appearance</p>
-            </div>
-          </div>
+          <!-- TODO: Add before-2.jpg / after-2.jpg (etc.) to assets/images/ and copy the gallery-pair structure above to add more pairs here -->
 
         </div><!-- /.gallery-grid -->
       </div>
@@ -454,11 +511,10 @@
           <div class="contact-info">
             <span class="section-eyebrow section-eyebrow--light">Get in Touch</span>
             <h2 class="section-title contact-info__title" id="contact-heading">
-              Request a Free Quote
+              Get Your Free Turf Quote
             </h2>
             <p class="contact-info__desc">
-              Tell us about your turf and we'll get back to you within
-              24 hours with a custom quote. No pressure, no obligation.
+              Tell us about your turf and we'll respond within 24 hours. No pressure, no obligation — just a straightforward quote from your local Tucson team.
             </p>
 
             <ul class="contact-details" role="list">
