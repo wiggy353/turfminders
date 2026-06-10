@@ -35,6 +35,15 @@
   <!-- Canonical URL — update after deployment -->
   <link rel="canonical" href="https://turfminders.com" />
 
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JEE0FHK3TM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-JEE0FHK3TM');
+  </script>
+
   <!-- LocalBusiness structured data — helps Google show your business in local search results -->
   <script type="application/ld+json">
   {
@@ -575,8 +584,47 @@
               </div>
 
               <div class="form-group">
-                <label class="form-label" for="address">Property Address</label>
-                <input class="form-input" type="text" id="address" name="address" placeholder="123 Main St, Tucson, AZ 85701" autocomplete="street-address" />
+                <label class="form-label" for="address">Street Address</label>
+                <input class="form-input" type="text" id="address" name="address" placeholder="123 Main St" autocomplete="address-line1" />
+              </div>
+
+              <div class="form-row form-row--thirds">
+                <div class="form-group">
+                  <label class="form-label" for="city">City</label>
+                  <input class="form-input" type="text" id="city" name="city" placeholder="Tucson" autocomplete="address-level2" />
+                </div>
+                <div class="form-group form-group--sm">
+                  <label class="form-label" for="state">State</label>
+                  <input class="form-input" type="text" id="state" name="state" placeholder="AZ" maxlength="2" autocomplete="address-level1" />
+                </div>
+                <div class="form-group form-group--sm">
+                  <label class="form-label" for="zip">ZIP</label>
+                  <input class="form-input" type="text" id="zip" name="zip" placeholder="85701" maxlength="10" autocomplete="postal-code" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <fieldset class="form-fieldset">
+                  <legend class="form-label">Preferred Contact Method</legend>
+                  <div class="form-radio-group">
+                    <label class="form-radio">
+                      <input type="radio" name="contact_method" value="Text" />
+                      <span>Text</span>
+                    </label>
+                    <label class="form-radio">
+                      <input type="radio" name="contact_method" value="Call" />
+                      <span>Call</span>
+                    </label>
+                    <label class="form-radio">
+                      <input type="radio" name="contact_method" value="Email" />
+                      <span>Email</span>
+                    </label>
+                    <label class="form-radio">
+                      <input type="radio" name="contact_method" value="No Preference" checked />
+                      <span>No Preference</span>
+                    </label>
+                  </div>
+                </fieldset>
               </div>
 
               <div class="form-group">
@@ -588,7 +636,7 @@
                   <option value="reset">Reset</option>
                   <option value="infill-addon">Infill Refresh Add-On</option>
                   <option value="recurring">Recurring Maintenance Plan</option>
-                  <option value="not-sure">Not Sure — I Need Advice</option>
+                  <option value="Not Sure - I Need Advice">Not Sure - I Need Advice</option>
                 </select>
               </div>
 

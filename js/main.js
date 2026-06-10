@@ -47,7 +47,7 @@
    ================================================================ */
 
 // TODO: Set your form submission endpoint (see options above)
-const FORM_ENDPOINT = ''; // e.g. 'https://formspree.io/f/yourformid'
+const FORM_ENDPOINT = 'https://hook.us2.make.com/vqeenpb95g43b4toim4jgt3emr81jwv5';
 
 // TODO: Update this email for mailto fallback
 const CONTACT_EMAIL = 'info@turfminders.com'; // ✅ confirmed
@@ -367,6 +367,10 @@ const CONTACT_EMAIL = 'info@turfminders.com'; // ✅ confirmed
             phone:   data.phone,
             email:   data.email,
             address: data.address || '',
+            city:    data.city    || '',
+            state:   data.state   || '',
+            zip:     data.zip     || '',
+            contact_method: data.contact_method || '',
             service: data.service || '',
             message: data.message || '',
           }),
@@ -389,8 +393,12 @@ const CONTACT_EMAIL = 'info@turfminders.com'; // ✅ confirmed
         console.log('Phone:   ', data.phone);
         console.log('Email:   ', data.email);
         console.log('Address: ', data.address || '(not provided)');
-        console.log('Service: ', data.service || '(not selected)');
-        console.log('Message: ', data.message || '(not provided)');
+        console.log('City:    ', data.city    || '(not provided)');
+        console.log('State:   ', data.state   || '(not provided)');
+        console.log('ZIP:     ', data.zip            || '(not provided)');
+        console.log('Contact: ', data.contact_method  || '(not selected)');
+        console.log('Service: ', data.service          || '(not selected)');
+        console.log('Message: ', data.message          || '(not provided)');
         console.groupEnd();
 
         // Simulate network delay for testing

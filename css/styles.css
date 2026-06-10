@@ -1196,6 +1196,10 @@ p {
   gap: var(--space-5);
 }
 
+.form-row--thirds {
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
 .form-group {
   display: flex;
   flex-direction: column;
@@ -1252,6 +1256,35 @@ p {
 .form-textarea {
   resize: vertical;
   min-height: 120px;
+}
+
+.form-fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.form-radio-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3) var(--space-5);
+  margin-top: var(--space-2);
+}
+
+.form-radio {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-dark);
+  cursor: pointer;
+}
+
+.form-radio input[type="radio"] {
+  accent-color: var(--color-primary);
+  width: 1rem;
+  height: 1rem;
+  cursor: pointer;
 }
 
 .form-error {

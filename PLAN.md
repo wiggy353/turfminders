@@ -14,7 +14,7 @@
 - [x] "Why Turf Cleaning Matters" section — 6 educational cards
 - [x] Before/After gallery section — placeholders ready for real photos
 - [x] Pricing section — Clean $149 / Refresh $189 / Reset $224 (starting at)
-- [x] Contact/quote request form — name, phone, email, address, service, message; honeypot spam trap
+- [x] Contact/quote request form — name, phone, email, street/city/state/zip, preferred contact method, service, message; honeypot spam trap; wired to Make.com webhook → Airtable Leads table
 - [x] Footer with service area, navigation links, contact info
 - [x] Real logo — white SVG with tight viewBox (from `turf_minders_artwork/`)
 - [x] Real phone number: (520) 704-7954
@@ -22,15 +22,14 @@
 - [x] Live Server set up for local development preview
 
 ### Still Needed — Phase 1
-- [ ] Before/after gallery photos (6 images: before-1/2/3.jpg, after-1/2/3.jpg → `assets/images/`)
-- [ ] Wire up contact form to submission endpoint — set `FORM_ENDPOINT` in `js/main.js`
-      → Recommended: Formspree (formspree.io, free tier, 5 min setup)
+- [ ] Before/after gallery photos (6 images: before-1/2/3.jpg, after-1/2/3.jpg → `assets/images/`) — in progress
+- [x] Wire up contact form to submission endpoint — Make.com → Airtable Leads + email notification
 - [ ] OG social share image (`assets/images/og-image.jpg`, 1200×630px) — uncomment meta tag in `<head>`
 - [ ] Favicon PNG (32×32px) — currently using SVG/JPG fallback
 - [ ] Deploy to hosting and point turfminders.com DNS (replace Squarespace)
       → Recommended: Netlify (free, drag-and-drop deploy, connects to domain)
 - [ ] Test on real mobile devices (iOS Safari, Android Chrome)
-- [ ] Google Analytics or similar tracking (optional, add before go-live)
+- [x] Google Analytics — GA4 property G-JEE0FHK3TM added to `<head>`
 
 ---
 
