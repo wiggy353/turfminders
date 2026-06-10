@@ -38,7 +38,8 @@ Netlify auto-deploys within ~60 seconds of every push to `main`.
 
 ## Phase 2 — Customer Portal
 - [ ] Customer login / account creation
-- [ ] Online quote request with backend storage
+- [x] Quote request capture with backend storage — handled via Make.com → Airtable (owner-facing)
+- [ ] Customer-facing portal — self-service quote status, history, account view
 - [ ] Stripe payment integration
 - [ ] Quote-to-invoice workflow
 
