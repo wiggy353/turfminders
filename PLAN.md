@@ -28,7 +28,7 @@
 ### Still Needed / Nice to Have
 - [ ] OG social share image (`assets/images/og-image.jpg`, 1200×630px) — uncomment meta tag in `<head>`
 - [ ] Favicon PNG (32×32px) — currently using SVG/JPG fallback
-- [ ] Test on real mobile devices (iOS Safari, Android Chrome)
+- [x] Test on real mobile devices (iOS Safari, Android Chrome)
 
 ### Deployment Workflow
 Push changes live: `git add -A` → `git commit -m "message"` → `git push`
